@@ -1,5 +1,5 @@
 /**!
- * jquery.youtubeCoverPhoto v1.0.0
+ * jquery.youtubeCoverPhoto v1.0.1
  * https://github.com/helixgroup/jquery.youtube-cover-photo
  * 
  * Copyright 2017 Helix Group
@@ -73,7 +73,7 @@ $.fn.youtubeCoverPhoto = function (options) {
     }
     ycp.assignLoadedImage = function ($target, url) {
         if (ycp.options.background) {
-            $target.style('background-image', url);
+            $target.css('background-image', 'url(' + url + ')');
         }
         else {
             $target.attr('src', url);
