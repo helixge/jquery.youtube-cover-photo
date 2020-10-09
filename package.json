@@ -1,0 +1,19 @@
+{
+  "name": "jquery.youtube-cover-photo",
+  "version": "1.0.0",
+  "description": "Youtube provides different resolution thumbnails for videos. Not all thumnail resolutions are available for all videos. The plugin was designed to display the highest available resolution for the specific video.\r Video ID must be specified as a data-youtube-id attribute for the target tag.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helixge/jquery.youtube-cover-photo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helixge/jquery.youtube-cover-photo/issues"
+  },
+  "homepage": "https://github.com/helixge/jquery.youtube-cover-photo#readme"
+}
